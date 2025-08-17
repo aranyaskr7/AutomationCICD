@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+    
+    <listeners>
+        <listener class-name="Aranya_Pvt_Ltd.TestComponents.Listeners"> </listener>
+    </listeners>
+
+    <test thread-count="5" name="Place Order Test">
+        <classes>
+            <class name="Aranya_Pvt_Ltd.Test_Cases.PlaceOrderTest"/>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Error Validations Test">
+        <classes>
+            <class name="Aranya_Pvt_Ltd.Test_Cases.ErrorValidationTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

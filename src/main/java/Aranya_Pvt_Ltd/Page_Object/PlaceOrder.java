@@ -59,5 +59,6 @@ public class PlaceOrder extends AbstractComponent {
         ConfirmationPage confirmationPage = new ConfirmationPage(driver);
         return confirmationPage;
     }
+//Demo purpose to check git push
 
 }
